@@ -1,0 +1,7 @@
+# Stages 1-5 use the Python standard library plus the afinn package, which
+# supplies the AFINN-111 word list used by rule R6.
+afinn==0.1
+# Optional: only for Stage 0, scanning .docx marking grids.
+python-docx>=1.0
+# Optional: only for reading an .xlsx grade record in marc.heldout.
+openpyxl>=3.1
